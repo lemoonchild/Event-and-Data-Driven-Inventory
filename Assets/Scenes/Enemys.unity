@@ -1517,7 +1517,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e6b6892043178354f9b48a41c776766a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.79
+      value: 2.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e6b6892043178354f9b48a41c776766a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1525,7 +1525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e6b6892043178354f9b48a41c776766a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.48
+      value: 7.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e6b6892043178354f9b48a41c776766a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2137,6 +2137,22 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1012887625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012887621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a779080490bb6d4fa79b110cb93e303, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  player: {fileID: 198145045}
+  detectionRange: 6
+  fleeSpeed: 4
+  fleeDistance: 10
 --- !u!1 &1032381914
 GameObject:
   m_ObjectHideFlags: 0
@@ -2603,6 +2619,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vampire A Lusth
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 3de2ffe026fd11745b923a5583003ee0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fab105a232c58ee479004559213595af, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 3de2ffe026fd11745b923a5583003ee0, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2610,6 +2634,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3de2ffe026fd11745b923a5583003ee0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1012887624}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3de2ffe026fd11745b923a5583003ee0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1012887625}
   m_SourcePrefab: {fileID: 100100000, guid: 3de2ffe026fd11745b923a5583003ee0, type: 3}
 --- !u!1 &1473888298
 GameObject:
@@ -2953,7 +2980,7 @@ Transform:
   m_GameObject: {fileID: 1634563325}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.31, y: 0, z: -1.49}
+  m_LocalPosition: {x: -0.38, y: 0, z: -10.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3080,7 +3107,7 @@ Transform:
   m_GameObject: {fileID: 1672296436}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.3517303, y: 0, z: -21.87}
+  m_LocalPosition: {x: -1.11, y: 0, z: -22.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3336,9 +3363,9 @@ MonoBehaviour:
   patrolSpeed: 1.5
   waitTime: 4
   player: {fileID: 198145045}
-  detectionRange: 2
-  visionAngle: 60
-  danceRange: 4
+  detectionRange: 6
+  visionAngle: 120
+  danceRange: 3
 --- !u!195 &1875392443
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3504,7 +3531,7 @@ Transform:
   m_GameObject: {fileID: 1962313039}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.53, y: 0, z: -9.91}
+  m_LocalPosition: {x: 5.29, y: 0, z: -7.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
