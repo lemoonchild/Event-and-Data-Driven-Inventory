@@ -45,17 +45,22 @@ https://github.com/user-attachments/assets/0735946c-bf00-4f41-95df-c14a5038de22
 - [Assets for environment](https://assetstore.unity.com/packages/3d/environments/low-poly-environment-park-242702)
 - [Assets for the characters](https://assetstore.unity.com/packages/3d/characters/animals/little-friends-cartoon-animals-lite-262505)
 - [Assets for the food](https://assetstore.unity.com/packages/3d/props/food/food-pack-free-demo-225294)
+- [Enemies and Animations](https://www.mixamo.com/)
 
 ---
 
-## Learning Outcomes
+## Enemies 
+The enemies are located in the Scenes folder with the name “Enemies.”
 
-Through this project, I learned:
-- Game object interaction systems
-- Checkpoint and respawn mechanics
-- UI implementation and scene management
-- Trigger-based events
-- Player movement and physics
+### Enemy 1 — Patrol & Salsa Dancer
+This enemy patrols between a set of predefined points. When the player enters its vision range (defined by a detection distance and a field of view angle), the enemy stops and breaks into a salsa dance. Once the player moves out of range, it resumes patrolling.
+
+
+### Enemy 2 — Shy Runner
+This enemy stands idle until the player gets too close. Once the player enters its detection radius, it flees in the opposite direction and stops at a safe distance. If the player approaches again, it runs away once more.
+
+### Enemy 3 — Chaser & Attacker
+This enemy stands idle until the player enters its field of view. Once detected, it chases the player. When close enough, it stops and performs a melee attack. If the player escapes its range, it returns to idle.
 
 ---
 
