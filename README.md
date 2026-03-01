@@ -55,12 +55,17 @@ The enemies are located in the Scenes folder with the name “Enemies.”
 ### Enemy 1 — Patrol & Salsa Dancer
 This enemy patrols between a set of predefined points. When the player enters its vision range (defined by a detection distance and a field of view angle), the enemy stops and breaks into a salsa dance. Once the player moves out of range, it resumes patrolling.
 
+https://github.com/user-attachments/assets/a8f2c779-69ef-4779-9f88-8148abe23d69
 
 ### Enemy 2 — Shy Runner
 This enemy stands idle until the player gets too close. Once the player enters its detection radius, it flees in the opposite direction and stops at a safe distance. If the player approaches again, it runs away once more.
 
+https://github.com/user-attachments/assets/3ab8d7e9-b723-47f9-a861-2364d0d8090e
+
 ### Enemy 3 — Chaser & Attacker
 This enemy stands idle until the player enters its field of view. Once detected, it chases the player. When close enough, it stops and performs a melee attack. If the player escapes its range, it returns to idle.
+
+https://github.com/user-attachments/assets/28597aad-83a1-4b31-ac96-0496eabd15b4
 
 ---
 
