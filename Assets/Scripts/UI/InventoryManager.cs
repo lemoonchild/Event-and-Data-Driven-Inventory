@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using TMPro; 
 
 public class InventoryManager : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class InventoryManager : MonoBehaviour
     [Header("UI Elements")]
     public Transform inventoryPanel; // Panel que contiene los slots
     public GameObject inventorySlotPrefab; // Prefab del slot
+
+    [Header("Score UI")]
+    public TextMeshProUGUI scoreText;  
 
     [Header("Score")]
     public int currentScore = 0; 
@@ -22,6 +26,12 @@ public class InventoryManager : MonoBehaviour
         } else {
             Instance = this;
         }
+    }
+
+    private void Start()
+    {
+        if (scoreText != null)
+            scoreText.text = "Score: " + currentScore;
     }
 
     public void AddItem(PickUpData data){
@@ -43,6 +53,7 @@ public class InventoryManager : MonoBehaviour
 
     private void AddScore(int amount){
         currentScore += amount;
-        Debug.Log("Score: " + currentScore);
+        if (scoreText != null)
+            scoreText.text = "Score: " + currentScore;
     }
 }
