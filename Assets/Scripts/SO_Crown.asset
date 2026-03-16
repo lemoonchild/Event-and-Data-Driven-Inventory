@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18cefe83033e74e43b545841d2015d7f, type: 3}
   m_Name: SO_Crown
   m_EditorClassIdentifier: Assembly-CSharp::PickUpData
-  pickUpName: Corona
-  icon: {fileID: 0}
-  addToInventory: 1
+  pickUpName: Crown
+  icon: {fileID: 21300000, guid: ccece17d57a3a5b48b16efa3739038d2, type: 3}
+  addsToInventory: 1
   scoreValue: 0

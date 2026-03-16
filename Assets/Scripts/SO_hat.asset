@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18cefe83033e74e43b545841d2015d7f, type: 3}
   m_Name: SO_hat
   m_EditorClassIdentifier: Assembly-CSharp::PickUpData
-  pickUpName: Sombrero
-  icon: {fileID: 0}
-  addToInventory: 1
+  pickUpName: Hat
+  icon: {fileID: 21300000, guid: a020c444eb857bc4a8887ef2f8a63c9a, type: 3}
+  addsToInventory: 1
   scoreValue: 0
