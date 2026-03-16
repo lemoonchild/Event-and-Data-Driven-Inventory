@@ -8,7 +8,7 @@ public class PickUpData : ScriptableObject
     public Sprite icon; 
 
     [Header("Configuration")]
-    public bool addToInventory;
+    public bool addsToInventory;
     public int scoreValue;
 
 }
