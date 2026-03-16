@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LightActivator : MonoBehaviour
 {
-    [Header("Configuración")]
+    [Header("Configuration")]
     public Light targetLight;        
     public Color lightColor = Color.yellow;
     public float intensity = 3f;
