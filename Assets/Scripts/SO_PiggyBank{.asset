@@ -15,4 +15,4 @@ MonoBehaviour:
   pickUpName: Piggy
   icon: {fileID: 0}
   addsToInventory: 0
-  scoreValue: 50
+  scoreValue: 100
